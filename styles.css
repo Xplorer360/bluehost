@@ -1,0 +1,81 @@
+
+/* default setting */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    height: 1oovh;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*end of default setting */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    align-items: center;
+    padding-inline: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.logo{
+    width: 20%;
+}
+.menu{
+    width: 5%;
+    
+}
+.hero{
+    background-color: rgb(120, 202, 216);
+
+}
+.hero-wrap > h1{
+    letter-spacing: 2px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500px;
+    font-size: 0.8rem;
+    padding: 1.7rem 0;
+    color: rgb(82, 76, 76);
+
+    
+}
+.hero-wrap{
+    width: 89%;
+    margin: 0 auto;
+}
+.hero-wrap >h2{
+    font-family: "Source Serif Pro" ;
+    font-weight: 900px;
+    font-size: 2.8rem;
+    line-height: 1;
+    padding-bottom: 1.5rem;
+
+}
+.hero-wrap >p{
+    font-family: proxima-nova,sans-serif;
+    line-height: 1.5;
+    font-weight: 500px;
+    font-size: 1.1rem;
+margin-bottom: 1.5rem;
+    color:rgb(61, 58, 58) ;
+}
+.hero-wrap >button{
+    color: white;
+    padding:1.1rem ;
+    background-color: rgb(13, 92, 211);
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    border: 0px;
+    border-radius: 2px;
+    margin-bottom: 1.8rem;
+}
+.hero-image{
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    
+
+}
